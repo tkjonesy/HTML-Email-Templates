@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Email Example</title>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+
+	.wrapper {
+		width: 100%;
+		table-layout: fixed;
+		background-color: #D4DCE6;
+		padding-bottom: 60px;
+	}
+
+	.main {
+		background-color: #fff;
+		margin: auto;
+		width: 100%;
+		max-width: 600px;
+		border-spacing: 0;
+		font-family: sans-serif;
+		box-shadow: 0 0 25px rgba(0, 0, 0, .20);
+		text-align: center;
+	}
+	
+	.logo {
+		padding: 0 22px 10px;
+	}
+
+	.two-columns {
+		font-size: 0;
+		text-align: center;
+	}
+
+	.two-columns .column {
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.social-icons {
+		display: inline-block;
+		padding: 12px 0 12px 62px;
+	}
+
+	.social-icons a:hover img {
+  		animation: wiggle 0.5s ease-in-out infinite;
+	}
+
+	@keyframes wiggle {
+  		0% {
+    		transform: rotate(0deg);
+  		}		
+  		25% {
+    		transform: rotate(3deg);
+		}
+		75% {
+			transform: rotate(-3deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+	.button:hover {
+    	transform: scale(1.2);
+	}
+
+	.button {
+		display:inline-block;
+		background-color: #062764;
+		color: #fff;
+		text-decoration: none;
+		padding: 12px 20px;
+		font-weight: bold;
+		border-radius: 5px;
+		transition: all .3s ease-in-out;
+	}
+
+	.main-column {
+		padding: 15px 10px 40px;
+	}
+
+	.three-columns {
+		font-size: 0;
+	}
+
+	.three-columns .column {
+		width: 100%;
+		max-width: 200px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.three-columns .padding {
+		padding: 25px;
+	}
+
+	.three-columns .content {
+		font-size: 16px;
+	}
+
+	.footer-social {
+		padding: 20px 20px 0;
+	}
+
+	h2 {
+		font-family: 'Antonio', sans-serif;
+		font-style: oblique;
+		color: #e21d34;
+	}
+
+	h3 {
+		font-family: 'Antonio', sans-serif;
+		font-style: oblique;
+		color: #e21d34;
+	}
+
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+
+</style>
+</head>
+<body style="margin: 0; background-color: #D4DCE6;">
+
+	<center class="wrapper">
+
+		<table class="main">
+<!-- TOP BORDER -->
+			<tr>
+				<td height="10" style="background-color: #062764;">
+				</td>
+			</tr>
+
+<!-- LOGO SECTION -->
+			<tr>
+				<td style="background-color: #fff; padding: 14px 0 6px;">
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
+								<table class="column">
+									<tr>
+										<td class="logo">
+											<a href="#"><img src="images/auto-speed-medium.png" alt="Auto Speed Logo" title="Auto Speed Logo" width="250"></a>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="social-icons">
+											<a href="https://www.facebook.com/"><img class="social" src="images/facebook.png" alt="Facebook Icon" title="Facebook Icon" width="48"></a>
+											<a href="https://twitter.com/"><img class="social" src="images/twitter.png" alt="Twitter Icon" title="Twitter Icon" width="48"></a>
+											<a href="https://www.instagram.com/"><img class="social" src="images/instagram.png" alt="Instagram Icon" title="Instagram Icon" width="48"></a>
+											<a href="https://www.youtube.com/"><img class="social" src="images/youtube.png" alt="YouTube Icon" title="YouTube Icon" width="48"></a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+<!-- Banner -->
+			<tr>
+				<td height="2" style="background-color: #062764;">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#"><img src="images/banner.png" alt="Discount Banner" title="Discount Banner" width="100%"></a>
+				</td>
+			</tr>
+			<tr>
+				<td height="2" style="background-color: #062764;">
+				</td>
+			</tr>
+
+<!-- Single main Column Content -->
+			<tr>
+				<td style="padding: 5px">
+					<table width="100%"> 
+						<tr>
+							<td class="main-column">
+								<h2>FASTEST DELIVERY GUARANTEED!</h2>
+								<p style="line-height: 23px; font-size: 16px; padding: 0 0 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur facilis aliquid exercitationem molestiae quae hic doloremque sint quia a voluptas eveniet aspernatur earum voluptatum amet, corrupti cupiditate dolores nemo.</p>
+								<a href="#" class="button">Learn About Us</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td height="2" style="background-color: #062764;">
+				</td>
+			</tr>
+
+<!-- Three Column Content -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="three-columns">
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="images/shop.jpg" alt="Shopping Image" title="Shopping Image" width="120px"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px">
+														<h3>SHOP!</h3>
+														<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="images/truck.jpg" alt="Shopping Image" title="Shopping Image" width="120px"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px">
+														<h3>SHIP!</h3>
+														<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+													</td>
+												</tr>
+												
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="images/money.jpg" alt="Shopping Image" title="Shopping Image" width="120px"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px">
+														<h3>SAVE!</h3>
+														<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+					</table>
+				</td>
+			</tr>
+<!-- FOOTER SECTION -->
+			<tr>
+				<td style="background-color: #041f3a; color: white;">
+					<table width="100%">
+						<tr>
+							<td class="footer-social">
+								<a href="#"><img src="images/auto-speed-medium.png" alt="Auto Speed Logo" title="Auto Speed Logo" width="200"></a>
+								<p style="padding: 5px 0 0;">HTML Email Template Example</p>
+								<p>123 Street, City, State Zip</p>
+								<a href="https://www.facebook.com/"><img class="social" src="images/facebook.png" alt="Facebook Icon" title="Facebook Icon" width="34"></a>
+								<a href="https://twitter.com/"><img class="social" src="images/twitter.png" alt="Twitter Icon" title="Twitter Icon" width="34"></a>
+								<a href="https://www.instagram.com/"><img class="social" src="images/instagram.png" alt="Instagram Icon" title="Instagram Icon" width="34"></a>
+								<a href="https://www.youtube.com/"><img class="social" src="images/youtube.png" alt="YouTube Icon" title="YouTube Icon" width="34"></a>
+								<a style="text-decoration: none; color: #878a8d; font-size: 14px;" href="#">
+									<p>Unsubscribe</p>
+								</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+		</table>
+	</center>
+</body>
+</html>
