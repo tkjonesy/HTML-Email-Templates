@@ -3,4 +3,4 @@ This repository contains email templates I created in HTML. I did not create any
 
 ## Links
 [Email Template 1 (autospeed)](https://tkjonesy.github.io/autoship)\
-[Email Template 2 (greens)](https://tkjonesy.github.io/greens)\
+[Email Template 2 (greens)](https://tkjonesy.github.io/greens)
