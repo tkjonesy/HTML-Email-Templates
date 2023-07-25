@@ -1,5 +1,5 @@
 # HTML Email Templates
-This repository contains email templates I created in HTML. I did not create any of the images, this is just to demonstrate my abilities in HTML and CSS
+This repository contains email templates I created in HTML. I did not create any of the images, this is just to demonstrate my abilities in HTML and CSS.
 
 ## Links
 [Promotional Email Template (autospeed)](https://tkjonesy.github.io/autoship)\
